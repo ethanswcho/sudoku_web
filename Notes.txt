@@ -1,0 +1,24 @@
+====
+Home:
+Rest button + easy/middle/hard
+Main sudoku gadget
+Hint / Solve
+====
+About
+What is sudoku? (Wiki page or something)
+Where sudoku data is pulled from
+How this website is made
+link to this github project
+====
+Ethan Cho
+Info about myself
+link to github
+
+======
+Notes for Github:
+Credit https://github.com/RutledgePaulV/sudoku-generator
+Used above script, modified the output to be suitable for javascript (convert from board to text)
+
+========
+TODO:
+On refresh design js function that calls the python function and prints the generated sudoku into command line

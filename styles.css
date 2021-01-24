@@ -1,0 +1,88 @@
+/* Master Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav (top) bar */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper> .left-side > div{
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.nav-wrapper> .middle-side >div{
+    margin-right:  78px;
+    text-transform: uppercase;
+    font-size:  100px;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #666666;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+/* Sudoku grid */
+
+.sudoku-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightseagreen;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid lightblue;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
